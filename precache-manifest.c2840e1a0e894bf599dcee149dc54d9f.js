@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "932130d232966954ff9b530554429188",
+    "revision": "5f39780ceb7d4ed1fdf0654f60dc6259",
     "url": "/ravibp-portfolio/index.html"
   },
   {
-    "revision": "de4674462bf00ac3f539",
+    "revision": "c4c685edbac17672ae8b",
     "url": "/ravibp-portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "9a1ab9285ff6d40db293",
+    "revision": "8f503fcc7a7c649cb360",
     "url": "/ravibp-portfolio/static/css/main.c7a63658.chunk.css"
   },
   {
-    "revision": "de4674462bf00ac3f539",
-    "url": "/ravibp-portfolio/static/js/2.05c36651.chunk.js"
+    "revision": "c4c685edbac17672ae8b",
+    "url": "/ravibp-portfolio/static/js/2.877645a6.chunk.js"
   },
   {
-    "revision": "9a1ab9285ff6d40db293",
-    "url": "/ravibp-portfolio/static/js/main.2bf45c9c.chunk.js"
+    "revision": "8f503fcc7a7c649cb360",
+    "url": "/ravibp-portfolio/static/js/main.8fb6b2d0.chunk.js"
   },
   {
     "revision": "1d86ddd092d47308fbd5",
