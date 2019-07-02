@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ravibp-portfolio/static/css/main.c7a63658.chunk.css",
+    "main.js": "/ravibp-portfolio/static/js/main.2bf45c9c.chunk.js",
+    "main.js.map": "/ravibp-portfolio/static/js/main.2bf45c9c.chunk.js.map",
+    "runtime~main.js": "/ravibp-portfolio/static/js/runtime~main.408ade13.js",
+    "runtime~main.js.map": "/ravibp-portfolio/static/js/runtime~main.408ade13.js.map",
+    "static/css/2.0624914a.chunk.css": "/ravibp-portfolio/static/css/2.0624914a.chunk.css",
+    "static/js/2.05c36651.chunk.js": "/ravibp-portfolio/static/js/2.05c36651.chunk.js",
+    "static/js/2.05c36651.chunk.js.map": "/ravibp-portfolio/static/js/2.05c36651.chunk.js.map",
+    "index.html": "/ravibp-portfolio/index.html",
+    "precache-manifest.8f305b99d385b24190d4107a8525a2e9.js": "/ravibp-portfolio/precache-manifest.8f305b99d385b24190d4107a8525a2e9.js",
+    "service-worker.js": "/ravibp-portfolio/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/ravibp-portfolio/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.c7a63658.chunk.css.map": "/ravibp-portfolio/static/css/main.c7a63658.chunk.css.map",
+    "static/media/avatar.jpg": "/ravibp-portfolio/static/media/avatar.f1d71f77.jpg",
+    "static/media/bg.jpg": "/ravibp-portfolio/static/media/bg.e5241971.jpg",
+    "static/media/bg2.jpg": "/ravibp-portfolio/static/media/bg2.84378183.jpg",
+    "static/media/bg3.jpg": "/ravibp-portfolio/static/media/bg3.e76de24b.jpg",
+    "static/media/bg4.jpg": "/ravibp-portfolio/static/media/bg4.199e9ec1.jpg",
+    "static/media/christian.jpg": "/ravibp-portfolio/static/media/christian.56633ed3.jpg",
+    "static/media/coding.40785e2f.svg": "/ravibp-portfolio/static/media/coding.40785e2f.svg",
+    "static/media/kendall.jpg": "/ravibp-portfolio/static/media/kendall.e0508cc9.jpg",
+    "static/media/landing.jpg": "/ravibp-portfolio/static/media/landing.08e18cb9.jpg",
+    "static/media/landingPage-bg.jpg": "/ravibp-portfolio/static/media/landingPage-bg.39061a53.jpg",
+    "static/media/profile.jpg": "/ravibp-portfolio/static/media/profile.090a5aab.jpg",
+    "static/media/resumeImage.jpg": "/ravibp-portfolio/static/media/resumeImage.e1a1df5c.jpg",
+    "static/media/sign.jpg": "/ravibp-portfolio/static/media/sign.cf8b686b.jpg"
+  }
+}
