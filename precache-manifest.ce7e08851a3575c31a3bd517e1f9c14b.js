@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a456c45bc2f054e35205b556ab64143b",
+    "revision": "9f01f6ed08c17eace65ad5746d168ca8",
     "url": "/ravibp-portfolio/landing-page/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravibp-portfolio/landing-page/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "be567c178567624946d6",
+    "revision": "8ceb5913664c3a4cf86b",
     "url": "/ravibp-portfolio/landing-page/static/css/main.c7a63658.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravibp-portfolio/landing-page/static/js/2.05c36651.chunk.js"
   },
   {
-    "revision": "be567c178567624946d6",
-    "url": "/ravibp-portfolio/landing-page/static/js/main.807fcaa0.chunk.js"
+    "revision": "8ceb5913664c3a4cf86b",
+    "url": "/ravibp-portfolio/landing-page/static/js/main.c6112520.chunk.js"
   },
   {
     "revision": "140f3e523a11746b624a",
