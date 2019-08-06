@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c3f7ad55d0ca49fe669680c8a59d0cd",
+    "revision": "bc292b975f7128c8c6e16c0ca3a5ea67",
     "url": "/ravibp-portfolio/index.html"
   },
   {
-    "revision": "ec7bba6af263b3b623fc",
+    "revision": "fb32216f6b9ff6d677d5",
     "url": "/ravibp-portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "5502c50bb9f21a570d40",
-    "url": "/ravibp-portfolio/static/css/main.acbc0239.chunk.css"
+    "revision": "e04e5f4665de1068fab2",
+    "url": "/ravibp-portfolio/static/css/main.e48edfd3.chunk.css"
   },
   {
-    "revision": "ec7bba6af263b3b623fc",
-    "url": "/ravibp-portfolio/static/js/2.20f4d68a.chunk.js"
+    "revision": "fb32216f6b9ff6d677d5",
+    "url": "/ravibp-portfolio/static/js/2.1c93ebf6.chunk.js"
   },
   {
-    "revision": "5502c50bb9f21a570d40",
-    "url": "/ravibp-portfolio/static/js/main.0350e134.chunk.js"
+    "revision": "e04e5f4665de1068fab2",
+    "url": "/ravibp-portfolio/static/js/main.825f633a.chunk.js"
   },
   {
     "revision": "1d86ddd092d47308fbd5",
     "url": "/ravibp-portfolio/static/js/runtime~main.408ade13.js"
+  },
+  {
+    "revision": "c8ae7fc389987dff4eaceed89502c12c",
+    "url": "/ravibp-portfolio/static/media/Icon1.c8ae7fc3.svg"
+  },
+  {
+    "revision": "4fbe41c0afdd258a4c74f29bfba21fcf",
+    "url": "/ravibp-portfolio/static/media/Icon2.4fbe41c0.svg"
+  },
+  {
+    "revision": "8b31567b6a59c7238e6ae767fd729f13",
+    "url": "/ravibp-portfolio/static/media/Icon3.8b31567b.svg"
   },
   {
     "revision": "abfc3b93baa0cb512723b5517b79e695",
@@ -112,6 +124,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravibp-portfolio/static/media/backgroundVideo.b58e3e49.mp4"
   },
   {
+    "revision": "e38b318c262132dd4d07759c9e63c8af",
+    "url": "/ravibp-portfolio/static/media/bk-img-triangle-mobile.e38b318c.jpg"
+  },
+  {
     "revision": "7d3087dfa71d33b675ea34c2c2d7329d",
     "url": "/ravibp-portfolio/static/media/bk-img-triangle.7d3087df.jpg"
   },
@@ -140,19 +156,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravibp-portfolio/static/media/profile-img-1.c70ea617.jpg"
   },
   {
-    "revision": "871569e17204046c2d60eb8f1e1f8603",
-    "url": "/ravibp-portfolio/static/media/profile-img-2.871569e1.jpg"
-  },
-  {
-    "revision": "f469098ad7d3e682531c004448c227d9",
-    "url": "/ravibp-portfolio/static/media/profile-img-3.f469098a.png"
-  },
-  {
     "revision": "5c0569af7fba32c84cca6fc9fdd0762c",
     "url": "/ravibp-portfolio/static/media/profile-img-4.5c0569af.jpg"
   },
   {
     "revision": "e1a1df5c38dd8d5949321ba77794f52a",
     "url": "/ravibp-portfolio/static/media/resumeImage.e1a1df5c.jpg"
+  },
+  {
+    "revision": "a6f9420e5b63ba4c79d8cdf8221afa4b",
+    "url": "/ravibp-portfolio/static/media/skillsBgImg.a6f9420e.jpg"
+  },
+  {
+    "revision": "f2da1ee349fc1a5cdb3041ad9ba86030",
+    "url": "/ravibp-portfolio/static/media/skillsBgImg90.f2da1ee3.jpg"
   }
 ]);
