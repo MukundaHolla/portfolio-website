@@ -1,21 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import { Router, Route, Switch } from "react-router-dom";
+
 import "assets/scss/material-kit-react.scss?v=1.7.0";
 
-// route pages
-import LandingPage from "myComponents/LandingPage.jsx";
-import ResumeBuild from "myComponents/ResumeBuild.jsx";
+// pages for this product
+import Components from "views/Components/Components.jsx";
+import LandingPage from "views/LandingPage/LandingPage.jsx";
+import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+import LoginPage from "views/LoginPage/LoginPage.jsx";
 
-  ReactDOM.render(
-    <BrowserRouter
-      basename={process.env.PUBLIC_URL}
-    >
-      <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route path="/resume" component={ResumeBuild} />
-      </Switch>
-    </BrowserRouter>,
-    document.getElementById("root")
-  );
+var hist = createBrowserHistory();
 
+ReactDOM.render(
+  <Router history={hist}>
+    <Switch>
+      <Route path="/landing-page" component={LandingPage} />
+      <Route path="/profile-page" component={ProfilePage} />
+      <Route path="/login-page" component={LoginPage} />
+      <Route path="/" component={Components} />
+    </Switch>
+  </Router>,
+  document.getElementById("root")
+);

@@ -1,36 +1,25 @@
 {
-  "name": "raviportfolio",
+  "name": "material-kit-react",
   "version": "1.7.0",
-  "description": "Portfolio website using React, Material, Bootstrap",
+  "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
   "main": "dist/index.js",
-  "homepage": "https://ravibp.github.io/portfolio-website",
   "dependencies": {
     "@material-ui/core": "4.1.0",
     "@material-ui/icons": "4.1.0",
-    "animated-number-react": "0.0.2",
-    "bootstrap": "^4.3.1",
     "classnames": "2.2.6",
     "history": "4.9.0",
+    "moment": "2.24.0",
     "node-sass": "4.12.0",
     "nouislider": "13.1.5",
     "prop-types": "15.7.2",
     "react": "16.8.6",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-animated-number": "^0.4.4",
     "react-datetime": "2.16.3",
-    "react-device-detect": "^1.6.2",
     "react-dom": "16.8.6",
-    "react-event-listener": "^0.6.6",
-    "react-grid-gallery": "^0.5.5",
-    "react-hamburger-menu": "^1.1.1",
     "react-router-dom": "5.0.1",
     "react-scripts": "3.0.1",
-    "react-scrollspy": "^3.4.0",
     "react-slick": "0.24.0",
-    "react-swipeable-views": "0.13.3",
-    "react-tooltip": "^3.10.0",
-    "underscore": "^1.9.1"
+    "react-swipeable-views": "0.13.3"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -39,16 +28,13 @@
     "@babel/preset-react": "7.0.0",
     "eslint-config-prettier": "4.3.0",
     "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-react": "7.13.0",
-    "gh-pages": "^2.0.1",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "eslint-plugin-react": "7.13.0"
   },
   "optionalDependencies": {
     "typescript": "3.5.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

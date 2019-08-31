@@ -1,20 +1,19 @@
 {
-  "name": "Ravi's Portfolio website",
-  "homepage": "https://ravibp.github.io/ravibp-portfolio/",
+  "name": "material-kit-react",
+  "homepage": "https://github.com/creativetimofficial/material-kit-react",
   "authors": [
-    "Ravi BP"
+    "creative-tim"
   ],
-  "description": "My Portfolio website using React.js, Bootstrap",
+  "description": "A Badass Material-UI Kit based on Material Design",
   "main": "dist/index.js",
   "keywords": [
-    "ravi-portfolio",
     "material",
     "design",
     "material-ui",
     "google",
     "twitter"
   ],
-  "license": "Ravi",
+  "license": "Creative TIM License",
   "ignore": [
     "**/.*",
     "node_modules",
