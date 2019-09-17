@@ -94,6 +94,11 @@ $sectionLineBreakColor: #d5d6d6;
       font-weight: 400;
       margin-top: 8px;
     }
+    &__yoe {
+      color: #002e58;
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
     &__sections {
       // global styles
       .sectionHeadingGlobal {
@@ -109,8 +114,7 @@ $sectionLineBreakColor: #d5d6d6;
         }
         &__divisionsGlobal {
           display: inline-flex !important;
-          margin: 5px 0px;
-          // margin: 10px 0px;
+          margin: 10px 0px;
           ul {
             font-size: 14px;
             list-style: initial;
@@ -167,8 +171,7 @@ $sectionLineBreakColor: #d5d6d6;
         }
         .hackathon {
           &__division {
-            margin: 5px 0px;
-            // margin: 10px 0px;
+            margin: 10px 0px;
           }
           &__project {
             margin-left: 20%;
@@ -215,7 +218,9 @@ $sectionLineBreakColor: #d5d6d6;
             background-color: #003d74 !important;
           }
           &__description {
-            text-align: right;
+            // text-align: right;
+            text-align: justify;
+            color: darkcyan;
           }
         }
         .languages {
@@ -234,7 +239,8 @@ $sectionLineBreakColor: #d5d6d6;
     display: inline-flex;
     border-bottom: 1px solid $sectionLineBreakColor;
     h3 {
-      margin: 8px 0px 0px 5px;
+      // margin: 8px 0px 0px 5px;
+      margin: 8px 0px 0px 0px;
     }
     svg {
       fill: white !important;

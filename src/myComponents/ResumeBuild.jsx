@@ -21,14 +21,15 @@ class ResumeBuild extends React.Component {
           <h2 className="resumeBuild__title">
             {resumeDataObj.currentJobTitle}
           </h2>
-          <div class="resumeBuild__introduction">
+          <div className="resumeBuild__introduction">
+            <p className="resumeBuild__yoe">Years of Experience: {resumeDataObj.expYrs}.</p>
             <p>{resumeDataObj.introduction}</p>
           </div>
           <div className="resumeBuild__sections">
             <div className="left-sections">
               <div className="experience sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconExperience />
+                  {/* <IconExperience /> */}
                   <h3 className="sectionHeadingGlobal">Experience</h3>
                 </div>
                 {resumeDataObj.experience.projects.map(project => {
@@ -68,9 +69,31 @@ class ResumeBuild extends React.Component {
                 })}
               </div>
 
+              <div className="hackathon sectionsGlobal">
+                <div className="icon icon-experience">
+                  {/* <IconIdea /> */}
+                  <h3 className="sectionHeadingGlobal">Hackathon Experience</h3>
+                </div>
+                {resumeDataObj.hackathon.map(hakathonObj => {
+                  let hackathonDivision = (
+                    <div className="hackathon__division">
+                      <div className="hackathon__project">
+                        <h5 className="hackathon__project__jobTitle mainHeadingGlobal">
+                          {hakathonObj.title}
+                        </h5>
+                        <p className="hackathon__description descriptionGlobal">
+                          {hakathonObj.description}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                  return hackathonDivision;
+                })}
+              </div>
+
               <div className="education sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconGraduation />
+                  {/* <IconGraduation /> */}
                   <h3 className="sectionHeadingGlobal">Education</h3>
                 </div>
                 {resumeDataObj.education.map(educationObj => {
@@ -94,31 +117,9 @@ class ResumeBuild extends React.Component {
                 })}
               </div>
 
-              <div className="hackathon sectionsGlobal">
-                <div className="icon icon-experience">
-                  <IconIdea />
-                  <h3 className="sectionHeadingGlobal">Hackathon Experience</h3>
-                </div>
-                {resumeDataObj.hackathon.map(hakathonObj => {
-                  let hackathonDivision = (
-                    <div className="hackathon__division">
-                      <div className="hackathon__project">
-                        <h5 className="hackathon__project__jobTitle mainHeadingGlobal">
-                          {hakathonObj.title}
-                        </h5>
-                        <p className="hackathon__description descriptionGlobal">
-                          {hakathonObj.description}
-                        </p>
-                      </div>
-                    </div>
-                  );
-                  return hackathonDivision;
-                })}
-              </div>
-
               <div className="certificates sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconCertificate />
+                  {/* <IconCertificate /> */}
                   <h3 className="sectionHeadingGlobal">Certificates</h3>
                 </div>
                 {resumeDataObj.certificates.map(cerfiticateObj => {
@@ -141,7 +142,7 @@ class ResumeBuild extends React.Component {
             <div className="right-sections">
               <div className="personalInfo sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconPersonalInfo />
+                  {/* <IconPersonalInfo /> */}
                   <h3 className="sectionHeadingGlobal">Personal Info</h3>
                 </div>
                 {resumeDataObj.personalInformation.map(personalInfo => {
@@ -161,7 +162,7 @@ class ResumeBuild extends React.Component {
 
               <div className="skills sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconSkills />
+                  {/* <IconSkills /> */}
                   <h3 className="sectionHeadingGlobal">Skills</h3>
                 </div>
                 {resumeDataObj.skills.map(skill => {
@@ -189,7 +190,7 @@ class ResumeBuild extends React.Component {
 
               <div className="languages sectionsGlobal">
                 <div className="icon icon-experience">
-                  <IconLanguage />
+                  {/* <IconLanguage /> */}
                   <h3 className="sectionHeadingGlobal">Languages</h3>
                 </div>
                 <div className="languages__list">

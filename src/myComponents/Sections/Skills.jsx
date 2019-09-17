@@ -201,48 +201,48 @@ class Skills extends React.Component {
             ref="skills-details-ref"
           >
             <div className="skills-details__division">
-              <span class="label label-default">JavaScript</span>
+              <span className="label label-default">JavaScript</span>
             </div>
             <div className="skills-details__division">
-              <span class="label label-primary">ReactJs/ Redux</span>
+              <span className="label label-primary">ReactJs/ Redux</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-info" background-color="yellow">
+              <span className="label label-info" background-color="yellow">
                 Angular 5
               </span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-warning">Bootstrap</span>
+              <span className="label label-warning">Bootstrap</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-primary">Node JS</span>
+              <span className="label label-primary">Node JS</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-default">HTML5</span>
+              <span className="label label-default">HTML5</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-success">CSS3/ SASS</span>
+              <span className="label label-success">CSS3/ SASS</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-info">MySQL</span>
+              <span className="label label-info">MySQL</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-warning">MongoDB</span>
+              <span className="label label-warning">MongoDB</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-default">GraphQL</span>
+              <span className="label label-default">GraphQL</span>
             </div>
 
             <div className="skills-details__division">
-              <span class="label label-primary">Photoshop</span>
+              <span className="label label-primary">Photoshop</span>
             </div>
           </div>
 

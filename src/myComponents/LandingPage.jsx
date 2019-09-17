@@ -58,8 +58,8 @@ class LandingPage extends React.Component {
                   <a href="#aboutMe-section">
                     <div className="profile__image">
                       <div id="f1_container">
-                        <div id="f1_card" class="">
-                          <div class="front face">
+                        <div id="f1_card" className="">
+                          <div className="front face">
                             <img
                               src={profileImg[0]}
                               alt="ravi bp"
@@ -68,7 +68,7 @@ class LandingPage extends React.Component {
                               }}
                             />
                           </div>
-                          <div class="back face center">
+                          <div className="back face center">
                             <img src={profileImg[1]} alt="ravi bp 2" />
                           </div>
                         </div>

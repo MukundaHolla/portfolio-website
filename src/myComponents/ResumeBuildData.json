@@ -1,32 +1,50 @@
 {
   "data": {
     "profileName": "Ravi BP",
-    "currentJobTitle": "Systems Engineer - Web Developer",
+    "currentJobTitle": "Systems Engineer - Full Stack Developer",
+    "expYrs": "2 yrs",
     "introduction": "Experienced Web developer with sound programming and scripting skills. Eager to learn new technologies and adapt quickly to new frameworks. My aim is to apply 'Test driven' approach to develop fast, scalable, secure and responsive websites following agile methodologies.",
     "experience": {
       "projects": [
         {
-          "dateFrom": "07-2018",
+          "dateFrom": "July-2019",
           "dateTo": "present",
           "jobTitle": "Systems Engineer",
           "companyName": "Infosys Ltd",
-          "technologyTitle": "React.js - Redux/ Flux",
+          "technologyTitle": "Fullstack: React.js - Redux, Node.js, Express.js, Apollo GraphQL, DynamoDB",
+          "projectDescription": "Developed API to implement Checkout and Payment feature for user be able to purchase items by adding to cart",
+          "projectResponsibilites": [
+            "Analyzed Schema for server-side cart checkout implementation.",
+            "Developed API to perform CRUD operation on cart items and coupons.",
+            "Implemented Coupon feature to provide discount for certain parts.",
+            "Validated API response with GraphQL playground.",
+            "Wrote Unit Tests for server code using moche and karma",
+            "Used Apollo GraphQL in front-end to fetch data for cart implementation.",
+            "Used Query Components with Apollo to handle API request in the client application."
+          ]
+        },
+        {
+          "dateFrom": "July-2018",
+          "dateTo": "Jun-2019",
+          "companyName": "Infosys Ltd",
+          "technologyTitle": "Frontend: React.js - Redux",
           "projectDescription": "Developed a fast, scalable and responsive website for a US based E-Commerce company with test driven approach following agile methodologies.",
           "projectResponsibilites": [
             "Developed UI designs and wire frames into a functional web page with quality code.",
             "Built re-usable components and front-end libraries to eliminate code duplication.",
-            "Used Apollo GraphQL to fetch data from server to client.",
+            "Developed searchable autosuggestion component to search available items",
+            "Developed items list UI which can be filtered by brands or categories to which they belong",
+            "Used Apollo GraphQL in front-end to fetch items information from DB.",
             "Used Query Components with Apollo to handle API request in the application.",
             "Have good understanding of SEO and it's best practices.",
-            "Used Jest (Unit testing framework) with Enzyme (Testing Utility) to write Unit Tests for the components.",
+            "Wrote Unit Tests for UI components using Jest (Unit testing framework) with Enzyme (Testing Utility).",
             "Used Pupeteer (Node Library) to run automated UI testing.",
             "Used Sass with BEM naming for CSS styling."
           ]
         },
         {
-          "dateFrom": "11-2017",
-          "dateTo": "06-2018",
-          "jobTitle": "Systems Engineer",
+          "dateFrom": "Nov-2017",
+          "dateTo": "June-2018",
           "companyName": "Infosys Ltd",
           "technologyTitle": "Angular 5",
           "projectDescription": "Developed a MEAN stack application to implement CRUD operations for a portal to manage Employee details.",
@@ -53,6 +71,12 @@
         }
       ]
     },
+    "hackathon": [
+      {
+        "title": "Infosys Global Hackathon 2019",
+        "description": "Runner up in \"Infosys Global Hackathon 2019\" at Infosys, Trivandrum DC for developing a mobile application to help the visually challenged people to identify currency notes using Google Cloud Vision. (65 Teams)"
+      }
+    ],
     "education": [
       {
         "dateFrom": "08-2013",
@@ -71,12 +95,6 @@
         "dateTo": "07-2010",
         "collegeName": "St.Joseph's Indian High School  |  92.96%",
         "courseName": "S.S.L.C"
-      }
-    ],
-    "hackathon": [
-      {
-        "title": "Infosys Global Hackathon 2019",
-        "description": "Runner up in \"Infosys Global Hackathon 2019\" at Infosys, Trivandrum DC for developing a mobile application to help the visually challenged people to identify currency notes using Google Cloud Vision. (65 Teams)"
       }
     ],
     "certificates": [
@@ -126,14 +144,14 @@
     ],
     "skills": [
       {
-        "skillName": "JavaScript",
+        "skillName": "JavaScript/ CSS/ HTML",
         "rating": "8",
-        "skillDetails": "HTML 5, CSS3, JS"
+        "skillDetails": ""
       },
       {
-        "skillName": "React.js - Redux/ Flux",
+        "skillName": "React.js - Redux (with React Hooks)",
         "rating": "8",
-        "skillDetails": "Familiar with Redux flow to update store with Connectors, Reducers and Actions."
+        "skillDetails": ""
       },
       {
         "skillName": "MySQL,  MongoDB",
@@ -141,24 +159,29 @@
         "skillDetails": ""
       },
       {
-        "skillName": "Node.js / Express.js , Angular 5",
+        "skillName": "Node.js / Express.js",
+        "rating": "7",
+        "skillDetails": ""
+      },
+      {
+        "skillName": "Angular 5",
         "rating": "5",
-        "skillDetails": "Worked on MEAN stack"
+        "skillDetails": ""
       },
       {
         "skillName": "Apollo GraphQL",
-        "rating": "4",
+        "rating": "6",
         "skillDetails": ""
       },
       {
         "skillName": "Python",
         "rating": "5",
-        "skillDetails": "HTML 5, CSS3, JS"
+        "skillDetails": ""
       },
       {
         "skillName": "Jest/ Enzyme",
         "rating": "5",
-        "skillDetails": "HTML 5, CSS3, JS"
+        "skillDetails": ""
       }
     ],
     "languages": ["English", "Kannada", "Hindi"]

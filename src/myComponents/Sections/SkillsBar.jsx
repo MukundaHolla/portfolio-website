@@ -166,14 +166,14 @@ class SkillsBar extends React.Component {
   }
   render() {
     return (
-      <div class="skillBar-container row no-gutters">
+      <div className="skillBar-container row no-gutters">
         {skillsJson.map(skill => (
           <div className="row col-12 no-gutters">
-            <div class="skillBar-container__title col-3">{skill.skillName}</div>
-            <div class="skillBar-container__progressBar col-7">
+            <div className="skillBar-container__title col-3">{skill.skillName}</div>
+            <div className="skillBar-container__progressBar col-7">
               <div
                 id={`${skill.skillId}-bar`}
-                class="skillBar-container__progress col-12"
+                className="skillBar-container__progress col-12"
               ></div>
             </div>
             <div className="skillBar-container__progressValue col-2">
