@@ -48,14 +48,14 @@ class Skills extends React.Component {
   displaySkillsCategory = () => {
     return (
       <div>
-        <ScrollAnimation animateOnce="true" animateIn="bounceInRight" delay="1">
+        <ScrollAnimation animateOnce={true} animateIn="bounceInRight" delay={1}>
           <h3>What I can do</h3>
         </ScrollAnimation>
         <ScrollAnimation
-          animateOnce="true"
+          animateOnce={true}
           animateIn="bounceInRight"
-          duration={isMobileOnly ? "1" : "3"}
-          delay="1"
+          duration={isMobileOnly ? 1 : 3}
+          delay={1}
         >
           <ul>
             <li>
@@ -88,9 +88,9 @@ class Skills extends React.Component {
         <div className="row no-gutters skills-container">
           <div className="col-12 skills-heading">
             <ScrollAnimation
-              animateOnce="true"
-              offset="0"
-              delay="1"
+              animateOnce={true}
+              offset={0}
+              delay={1}
               animateIn="tada"
               initiallyVisible={true}
             >
@@ -105,14 +105,14 @@ class Skills extends React.Component {
             ref="skills-diagram-ref"
           >
             <ScrollAnimation
-              animateOnce="true"
+              animateOnce={true}
               animateIn="flipInY"
-              duration={isMobileOnly ? "1" : "5"}
+              duration={isMobileOnly ? 1 : 5}
             >
               <ScrollAnimation
-                animateOnce="true"
+                animateOnce={true}
                 animateIn="bounceInRight"
-                duration={isMobileOnly ? "1" : "3"}
+                duration={isMobileOnly ? 1 : 3}
               >
                 <div className="circle-wrapper" ref="circle-wrapper-ref">
                   <div className="circle circle-1"></div>
@@ -187,10 +187,10 @@ class Skills extends React.Component {
             ref="skills-bar-ref"
           >
             <ScrollAnimation
-              animateOnce="true"
+              animateOnce={true}
               animateIn="flipInX"
               initiallyVisible={true}
-              duration={isMobileOnly ? "1" : "3"}
+              duration={isMobileOnly ? 1 : 3}
             >
               <SkillsBar />
             </ScrollAnimation>

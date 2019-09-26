@@ -37,9 +37,9 @@ class Hobbies extends React.Component {
         <div className="row hobbies-container">
           <div className="col-12 hobbies-heading">
             <ScrollAnimation
-              animateOnce="true"
-              offset="0"
-              delay="1"
+              animateOnce={true}
+              offset={0}
+              delay={1}
               animateIn="tada"
               initiallyVisible={true}
             >

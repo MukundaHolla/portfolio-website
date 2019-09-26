@@ -94,7 +94,7 @@ class SkillsBar extends React.Component {
     if (!isMobileOnly) {
       window.addEventListener("scroll", this.populateSkillBar);
       skillsJson.forEach(skill => {
-        document.getElementById(skill.skillId + "-bar").style.width = "0";
+        document.getElementById(skill.skillId + "-bar").style.width = 0;
         document.getElementById(skill.skillId + "-bar").style.background =
           skill.skillBarColor;
         document.getElementById(skill.skillId + "-bar").style.transition =
@@ -138,8 +138,8 @@ class SkillsBar extends React.Component {
           <AnimatedNumber
             value={number}
             formatValue={this.formatValue}
-            delay={isMobileOnly ? "0" : delay}
-            duration={isMobileOnly ? "0" : duration}
+            delay={isMobileOnly ? 0 : delay}
+            duration={isMobileOnly ? 0 : duration}
           />
           <span> %</span>
         </div>
@@ -150,8 +150,8 @@ class SkillsBar extends React.Component {
           <AnimatedNumber
             value={isMobileOnly ? number : 0}
             formatValue={this.formatValue}
-            delay={isMobileOnly ? "0" : delay}
-            duration={isMobileOnly ? "0" : duration}
+            delay={isMobileOnly ? 0 : delay}
+            duration={isMobileOnly ? 0 : duration}
           />
           <span> %</span>
         </div>

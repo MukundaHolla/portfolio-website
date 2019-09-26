@@ -33,9 +33,9 @@ class Projects extends React.Component {
         <div className="row projects-container">
           <div className="col-12 projects-heading">
             <ScrollAnimation
-              animateOnce="true"
-              offset="0"
-              delay="1"
+              animateOnce={true}
+              offset={0}
+              delay={1}
               animateIn="tada"
               initiallyVisible={true}
             >

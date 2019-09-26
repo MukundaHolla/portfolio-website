@@ -13,9 +13,9 @@ class AboutMe extends React.Component {
         <div className="row no-gutters aboutMe-container">
           <div className="col-12 aboutMe__heading">
             <ScrollAnimation
-              animateOnce="true"
-              offset="0"
-              delay="1"
+              animateOnce={true}
+              offset={0}
+              delay={1}
               animateIn="tada"
               initiallyVisible={true}
             >
@@ -27,10 +27,10 @@ class AboutMe extends React.Component {
           <div className="col-12 col-md-3 col-lg-4 ">
             <div className="aboutMe__profImg">
               <ScrollAnimation
-                animateOnce="true"
+                animateOnce={true}
                 animateIn="bounceInRight"
-                delay="1"
-                duration={isMobileOnly ? "1" : "2"}
+                delay={1}
+                duration={isMobileOnly ? 1 : 2}
               >
                 <img
                   src={aboutMe_image}
@@ -43,10 +43,10 @@ class AboutMe extends React.Component {
           </div>
           <div className="col-12 col-md-9 col-lg-8 aboutMe__details">
             <ScrollAnimation
-              animateOnce="true"
+              animateOnce={true}
               animateIn="bounceInRight"
-              delay="1"
-              duration={isMobileOnly ? "1" : "3"}
+              delay={1}
+              duration={isMobileOnly ? 1 : 3}
             >
               <h4 className="col-12">Hi! I'm Ravi,</h4>
               <p className="col-12">
@@ -68,10 +68,10 @@ class AboutMe extends React.Component {
               </p>
             </ScrollAnimation>
             <ScrollAnimation
-              animateOnce="true"
+              animateOnce={true}
               animateIn="bounceInRight"
-              delay="1"
-              duration={isMobileOnly ? "1" : "3"}
+              delay={1}
+              duration={isMobileOnly ? 1 : 3}
             >
               <div className="col-12 aboutMe__cv">
                 <a href="/resume" target="_blank">
